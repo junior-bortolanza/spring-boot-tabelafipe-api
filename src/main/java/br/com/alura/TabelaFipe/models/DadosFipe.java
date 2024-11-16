@@ -1,4 +1,6 @@
 package br.com.alura.TabelaFipe.models;
 
-public record DadosFipe() {
+import com.fasterxml.jackson.annotation.JsonAlias;
+
+public record DadosFipe(String codigo, String nome) {
 }
